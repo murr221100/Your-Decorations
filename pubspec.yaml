@@ -1,0 +1,17 @@
+name: my_shop
+description: متجر لعرض وبيع المنتجات
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+# باقي الحزم (supabase_flutter وغيرها) تُضاف تلقائياً بأحدث نسخة أثناء البناء على GitHub
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
